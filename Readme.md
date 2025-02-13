@@ -86,7 +86,8 @@ This folder contains the identification results for each baseline.
   
   - ### **[Bunch](https://github.com/ArchitectingSoftware/Bunch)** 
   - ### **[Mono2micro](https://github.com/rahlk/ASE21-Tutorial)** 
-  - ### **Study [2]** 
+  - ### **UseCaseExec**
+    S.-H Kim, D. Jung, N. Mohd Ali, A. B. Md Sultan, and J. Oh, "Microservice identification by partitioning monolithic web applications based on use-cases," J. Inf. Commun. Converg. Eng. vol. 21, no. 4, pp.268-280,2023 
 
 ### Model 
 This folder contains the models used in our approach for identifying microservices. Each model reflects specific information about the web application.
