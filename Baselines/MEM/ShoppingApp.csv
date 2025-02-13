@@ -1,0 +1,16 @@
+Components,Label
+History,0
+HistoryDAOImpl,0
+CategoryDAO,0
+Category,0
+UserDAOImpl,0
+CategoryDAOImpl,0
+RegisterServlet,1
+LoginServlet,1
+SearchServlet,1
+LogoutServlet,1
+UpdateUser,1
+ConfirmServlet,2
+ResetPassword,2
+Product,3
+ProductDAOImpl,3

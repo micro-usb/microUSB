@@ -1,0 +1,16 @@
+Components,Label
+CatalogService,0
+OrderService,0
+AccountService,1
+AccountMapper,1
+AccountActionBean,1
+ItemMapper,2
+Cart,2
+LineItemMapper,2
+CartItem,2
+CartActionBean,2
+LineItem,2
+Sequence,3
+CatalogActionBean,3
+Product,3
+Category,3
