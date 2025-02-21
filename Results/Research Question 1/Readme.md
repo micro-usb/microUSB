@@ -6,7 +6,7 @@ For each behavioral model, our microservice identification method was performed 
 
 ### Semantic model results
 
-For each behavioral model, our microservice identification method was performed 31 times, and the median accuracy was used to evaluate performance.
+For each semantic model, our microservice identification method was performed 31 times, and the median accuracy was used to evaluate performance.
 
 ### Integrated model results
 
