@@ -15,7 +15,7 @@ A linear combination of semantic and dynamic models was used.
 + ### The method of how alpha (_a_) values are extracted in the integrated model.
 
 1) We generated 31 outcomes for each of the 20 alpha values evenly distributed between 0 and 1.
-2) The accuracy for a particular alpha (a) value was the median of the results obtained from 31 repetitions using that alpha.
+2) The accuracy for a particular alpha (_a_) value was the median of the results obtained from 31 repetitions using that alpha.
 3) We evaluated the performance by selecting the alpha value with the highest accuracy among the 20 alpha values.
 
 
