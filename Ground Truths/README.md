@@ -3,16 +3,8 @@
     - A common component is a web component used in multiple microservices.
     - Therefore, in this paper, it does not matter which microservice the common component is allocated to by the microservice identification techniques.
 + ### "N/U": Not used
-    - "N/U" indicates a component that is not used in the web app.
+    - "N/U"(i.e., dead code) indicates a component that is not used in the web app.
     - Thus, like the common component, this paper does not care about the assignment of unused components to microservices.
 
 ## The reason why view, table, and class are indicated for each component in the ground truth.
-Our approach considers not only classes but also views and tables as components, so the type of each component in the ground truth is specified.
-
-
-
-
-
-
-
-.
+In Our approach, we consider not only classes but also views and tables as components, so the type of each component in the ground truth is specified in the ground truth.
