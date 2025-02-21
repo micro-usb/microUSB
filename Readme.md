@@ -52,6 +52,7 @@ To evaluate the proposed technique's performance, a ground truth for each subjec
 | 0         | Vet service         |
 | 1         | Visit service       |
 | 2         | Customer service    |
+| C         | Common component    |
 | N/U       | Not used            |
 
 ## ShoppingApp
