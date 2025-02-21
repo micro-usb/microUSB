@@ -2,7 +2,7 @@
 
 The hybrid model is a normalized linear combination of the Behavioral model and the Semantic model.
 
-The alpha (_a_) values used for each web application in the hybrid model is as follows.
+The alpha (_a_) value used in the hybrid model for each web application is as follows.
 
 ## Alpha Weights (Values applied to the Behavioral model)
 
