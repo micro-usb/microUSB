@@ -8,8 +8,8 @@ The alpha (_a_) value used in the hybrid model for each web application is as fo
 
 | Web Application | Alpha Weight |
 |------------------|--------------|
-| JP2             | 0.5          |
-| JP6             | 0.4          |
+| JPetStore             | 0.5          |
+| JPetStore6             | 0.4          |
 | PetClinic       | 0.35         |
 | ShoppingApp     | 0.5          |
 | DayTrader       | 0.2          |
