@@ -7,4 +7,4 @@
     - Thus, like the common component, this paper does not care about the assignment of unused components to microservices.
 
 ## The reason why view, table, and class are indicated for each component in the ground truth.
-In Our approach, we consider not only classes but also views and tables as components, so the type of each component in the ground truth is specified in the ground truth.
+In our approach, we consider not only classes but also views and tables as components, so the type of each component is specified in the ground truth.
