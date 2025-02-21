@@ -12,7 +12,7 @@ For each behavioral model, our microservice identification method was performed 
 
 A linear combination of semantic and dynamic models was used.
 
-+ ### The method of how alpha (_a_) values are extracted in the integrated model.
++ ### How to choose the alpha (_a_) value used in the integrated model of each app.
 
 1) We generated 31 outcomes for each of the 20 alpha values evenly distributed between 0 and 1.
 2) The accuracy for a particular alpha (_a_) value was the median of the results obtained from 31 repetitions using that alpha.
