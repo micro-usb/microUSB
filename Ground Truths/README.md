@@ -1,10 +1,14 @@
-## The Meanings of labels "C" and "N/U" in the ground truths.
+## Meaning of the Labels in the Ground Truths
++ ### Numeric labels (0, 1, 2, ...): Regular component
+    - A regular component is assigned to a specific microservice, and the label indicates that microservice.
 + ### "C": Common component
-    - A common component is a web component used in multiple microservices.
-    - Therefore, in this paper, it does not matter which microservice the common component is allocated to by the microservice identification techniques.
-+ ### "N/U": Not used
-    - "N/U" _(i.e., dead code)_ indicates a component that is not used in the web app.
-    - Thus, like the common component, this paper does not care about the assignment of unused components to microservices.
+    - A common component is shared by multiple microservices.
+    - Therefore, in this paper, a common component considered by a microservice identification technique is counted as a Hit regardless of the microservice to which it is assigned. Common components not considered by the technique are excluded from both Hit and Considered.
++ ### "N/U": Unused component
+    - An unused component _(i.e., dead code)_ is not exercised by the web app.
+    - Thus, like a common component, an unused component considered by a technique is counted as a Hit regardless of its assigned microservice.
 
-## The reason why view, table, and class are indicated for each component in the ground truth.
-In our approach, we consider not only classes but also views and tables as components, so the type of each component is specified in the ground truth.
+For Macro-F1 computation, considered common and unused components are grouped into an additional category.
+
+## Why the Component Type Is Specified in the Ground Truths
+In our approach, not only classes but also views and tables are considered as components. Therefore, the type of each component (class, view, or table) is specified in the ground truths.
